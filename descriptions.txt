@@ -1,0 +1,71 @@
+1
+mkdir backend
+
+2 
+cd backend
+
+3
+python -m venv venv
+
+4
+venv\Scripts\activate
+
+5
+add reguirements.txt
+
+6
+pip install -r requirements.txt
+
+7
+add folder bin in backend
+add file run.bat
+
+
+
+8
+django-admin startproject prj
+
+9
+cd  backend
+.\bin\run.bat
+
+runserver ==
+(venv) D:\GitHub\site_django_from_dima_herson\backend>.\bin\run.bat
+
+10
+cd prj
+manage.py migrate
+
+11
+
+cd prj
+python manage.py createsuperuser
+
+admin
+umanproger@ukr.net
+admin
+
+
+12
+cd prj
+python manage.py startapp market
+
+13
+prj-> settings-> 
+INSTALLED_APPS
+add market
+
+
+
+
+
+
+===========================================
+----------------------------------------------- Part 1
+https://www.youtube.com/watch?v=0VN_tXse_ZU  
+
+----------------------------------------------- Part 2
+https://youtu.be/XG-99CTkWiM
+
+14 : 17
+===========================================
