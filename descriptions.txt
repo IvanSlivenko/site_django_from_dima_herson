@@ -55,6 +55,47 @@ prj-> settings->
 INSTALLED_APPS
 add market
 
+14
+pip install pillow
+
+15
+create model
+prj-> market-> models.py
+
+16
+register model
+prj-> market-> admin.py
+
+17
+create file xlsx
+
+pip install openpyxl==3.1.5
+
+18
+prj -> prj -> settings.py
+DATA_DIR = os.path.join(BASE_DIR,'../init_data'),
+
+19
+in app market create folder management\commands
+in folder management past file __init__.py
+in folder commands past file __init__.py
+
+in folder commands create file load_from_exel.py
+
+pip install pandas
+
+https://docs.djangoproject.com/en/3.0/howto/custom-management-commands/
+
+(venv) D:\GitHub\site_django_from_dima_herson\backend\prj>python manage.py load_from_excel
+
+python manage.py load_from_excel
+
+
+
+
+
+
+
 
 
 
@@ -67,5 +108,9 @@ https://www.youtube.com/watch?v=0VN_tXse_ZU
 ----------------------------------------------- Part 2
 https://youtu.be/XG-99CTkWiM
 
-14 : 17
+46 : 37
+---------------------------------------------- Part 3
+https://youtu.be/q_YcW6vBVYU?list=PLHdxbzuwrHdjXrPC4XxV458IioEvm7k8s
+
+12 : 11
 ===========================================
