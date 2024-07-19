@@ -90,27 +90,82 @@ https://docs.djangoproject.com/en/3.0/howto/custom-management-commands/
 
 python manage.py load_from_excel
 
+objects - менеджер моделі
 
+Category.objects.all().delete() - видаляємо всі моделі
 
+20
+swagger
+https://github.com/axnsan12/drf-yasg
 
+in prj-> settings->
+INSTALLED_APPS :
+add
+drf-yasg
 
+21
 
-
-
-
-
-
+delete file views.py in market
+create folder views in app market
+create file category.py in folder views
 
 ===========================================
------------------------------------------------ Part 1
+----------------------------------------------------------------------- Part 1
 https://www.youtube.com/watch?v=0VN_tXse_ZU  
 
------------------------------------------------ Part 2
+----------------------------------------------------------------------- Part 2
 https://youtu.be/XG-99CTkWiM
 
-46 : 37
----------------------------------------------- Part 3
+----------------------------------------------------------------------- Part 3
 https://youtu.be/q_YcW6vBVYU?list=PLHdxbzuwrHdjXrPC4XxV458IioEvm7k8s
 
-12 : 11
+
+----------------------------------------------------------------------- Part 4
+
+https://youtu.be/PMhjHiwRHbg?list=PLHdxbzuwrHdjXrPC4XxV458IioEvm7k8s
+
+----------------------------------------------------------------------- Part 5
+swagger
+https://youtu.be/vpG0loF_h3s?list=PLHdxbzuwrHdjXrPC4XxV458IioEvm7k8s
+
+https://swagger.io/
+
+----------------------------------------------------------------------- Part 6
+channels
+https://youtu.be/HHzWDXjE5To?list=PLHdxbzuwrHdjXrPC4XxV458IioEvm7k8s
+
+https://channels.readthedocs.io/en/latest/
+
+22
+in settings.py
+add
+
+ASGI_APPLICATION = "market.ws_route_app.application"
+
+23
+create folder in folder prj - templates
+in folder templates create file index.html
+in prj-> settings-> TEMPLATES -> 'DIRS' : [os.path.join(BASE_DIR, 'templates')]
+
+https://www.sitepoint.com/a-basic-html5-template/
+
+24
+-----------------------------------------------   jquery
+https://releases.jquery.com/
+
+search word minified 
+
+respons ==
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous">
+</script>
+
+add this code in head index.html
+
+25
+in app market create file consumer.py
+
+17 : 44
 ===========================================
